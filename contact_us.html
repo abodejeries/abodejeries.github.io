@@ -1,0 +1,135 @@
+﻿<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title> australian design architects </title>
+
+  <meta name="author" content="      abdalla jeries  abodejeries9@gmail.com    ">
+
+  <link rel="stylesheet" href="australian.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="./js/loggedin.js"></script>
+</head>
+
+
+<body id="contact">
+
+  <div id="wrapper">
+    <header>
+      <img src="images/australian_design_architect.png" alt="australian design architects logo" width="350" height="350"
+        title="architecture logo">
+    </header>
+
+
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="project_design.html">PROJECT DESIGN</a></li>
+        <li><a href="awards.html">AWARDS</a></li>
+        <li><a href="about_us.html">ABOUT US</a></li>
+        <li><a href="contact_us.html" id="current-page">CONTACT US</a></li>
+      </ul>
+      <div class="container">
+          <div class="content"></div>
+          
+          <div class="news">
+              <h1 id="username"></h1>
+              <input type="submit" value="Logout" id="logout">
+          </div>
+        </div>
+    </nav>
+
+
+
+    <main>
+
+
+      <div id="col1">
+        <h1>CONTACT US</h1>
+        <h1>Location</h1>
+        <p>9 york St, NSW 2000 </p>
+        <p>sydney , australia</p>
+        <h1>Postal address</h1>
+        <p>PO BOX 4130</p>
+
+        <h1>Customer support</h1>
+        <p>Phone: 4830 255 466 </p>
+        <p>Fax: (02) 0464 1234</p>
+        <p>International: +61 2 6296 4818</p>
+        <p>Email: info@ada.com.au </p>
+
+        <div class="mapouter">
+          <div class="gmap_canvas"><iframe width="428" height="395" id="gmap_canvas"
+              src="https://maps.google.com/maps?q=9%20york%20st%20sydney%20australia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div>
+          <style>
+            .mapouter {
+              text-align: right;
+              height: 395px;
+              width: 428px;
+            }
+
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 395px;
+              width: 428px;
+            }
+          </style>
+        </div>
+
+        <!-- map code provided by google does not validate-->
+
+      </div>
+
+
+      <div id="col2">
+        <form name="contact-us-form" action="contact_us.html" method="POST"> 
+          <label for="fname"> Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+          <label for="email">email address</label>
+          <input type="text" id="email" name="emailadress" placeholder="Your email address..">
+
+          <label for="phone">phone number</label>
+          <input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
+
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit" id="submit-btn">
+        </form>
+      </div>
+
+
+    </main>
+
+    <footer>
+      <ul>
+        <li>&copy; australian design architecture </li>
+        <li><a href="Privacy.html">Privacy</a></li>
+        <li><a href="mailto:info@ada.com.au">Email</a></li>
+        <li><a href="https://www.facebook.com/"><img src="images/facebook.png" width="21" height="20"
+              alt="australian architecture facebook page"></a></li>
+        <li><a href="https://www.instagram.com/"><img src="images/instagram.png" width="21" height="20"
+              alt="australian architecture page"></a></li>
+      </ul>
+
+
+    </footer>
+
+
+  </div>
+  <script src="scipt.js"></script>
+</body>
+
+</html>
